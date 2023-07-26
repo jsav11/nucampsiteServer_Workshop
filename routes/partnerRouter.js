@@ -3,7 +3,6 @@ const Partner = require('../models/partner');
 const authenticate = require('../authenticate');
 const { verifyAdmin } = require('../authenticate');
 
-
 const partnerRouter = express.Router();
 
 partnerRouter.route('/')
